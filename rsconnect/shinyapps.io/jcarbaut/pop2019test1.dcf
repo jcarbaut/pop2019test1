@@ -1,0 +1,14 @@
+name: pop2019test1
+title: pop2019test1
+username:
+account: jcarbaut
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8440157
+bundleId: 6899795
+url: https://jcarbaut.shinyapps.io/pop2019test1/
+when: 1677627100.69143
+lastSyncTime: 1677627100.69145
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Renviron|.Rprofile

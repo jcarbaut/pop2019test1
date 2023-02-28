@@ -1,0 +1,22 @@
+---
+title: "Communes les plus peuplées de la région `r params$libreg`"
+subtitle: "Insee, Recensement de la population 2019"
+output: html_document
+date: "`r Sys.Date()`"
+params:
+  nmax: NULL
+  libreg: NULL
+  pop: NULL
+---
+
+```{r setup, include = F}
+knitr::opts_chunk$set(echo = F)
+pop <- params$pop
+```
+
+## `r params$nmax` communes les plus peuplées par département
+
+```{r}
+
+DT::datatable(pop)
+```
